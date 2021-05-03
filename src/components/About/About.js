@@ -1,50 +1,35 @@
 import React from 'react';
+import { Badge, Container, ProgressBar } from 'react-bootstrap';
+import JavaScript from '../../images/icons/JavaScript.png'
+import react from '../../images/icons/react.png'
+import node from '../../images/icons/node.png'
+import mongodb from '../../images/icons/mongodb.png'
+import redux from '../../images/icons/redux.png'
+import express from '../../images/icons/express.png'
+import rest from '../../images/icons/rest.svg'
 
 const About = () => {
     return (
-        <div className="container">
-            <div style={{border: '1px solid red'}} className="col-md-6 d-flex justify-content-center">
-                <div style={{border: '1px solid red'}}>
-                <p>Hello, I'm</p>
-                <h3>Moin Uddin Maruf</h3>
-                <p>Web Developer  Programmer</p>
-                <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. <br/> To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
-                <br/>
-                <button className="btn btn-success">About Me</button> <button className="btn btn-success">Get In Touch</button> 
-                </div>
-            </div>
-            <div className="text-center">
-                <h1 >My Skills</h1>
-                <div className="row">
-                    <div className="col-md-4">
-                        <h4><span style={{borderBottom:"2px solid red"}}>Comfortable</span></h4>
-                        <button className="btn">ReactJS</button>
-                        <button className="btn">JavaScript</button>
-                        <button className="btn">NodeJS</button>
-                        <button className="btn">ExpressJS</button>
-                        <button className="btn">Bootstrap</button>
-                        <button className="btn">HTML</button>
-                        <button className="btn">CSS</button>
-                        <button className="btn">REST API</button>
-                    </div>
-                    <div className="col-md-4">
-                        <h4><span style={{borderBottom:"2px solid red"}}>Familiar</span></h4>
-                        <button className="btn">Material UI</button>
-                        <button className="btn">JSON</button>
-                        <button className="btn">SASS</button>
-                        <button className="btn">OOP</button>
-                    </div>
-                    <div className="col-md-4">
-                        <h4><span style={{borderBottom:"2px solid red"}}>Tools:</span></h4>
-                        <button className="btn">VS CODE</button>
-                        <button className="btn">Chrome Dev Tool</button>
-                        <button className="btn">Firebase</button>
-                        <button className="btn">Netlify</button>
-                        <button className="btn">Heroku</button>
+        <Container>
+            <div className=" row">
+                <div style={{ border: '1px solid red' }} className=" col-md-6 d-flex justify-content-center">
+                    <div className="text-center" style={{ border: '1px solid red' }}>
+                        <h3>Moin Uddin Maruf</h3>
+                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. <br /> To work in the Software industry with modern web technologies of different local & multinational <br /> Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                        <br />
                     </div>
                 </div>
+                <div className="col-md-6 d-flex justify-content-center">
+                    <div className="w-75">
+                        <h3>My skills</h3>
+                     <button style={{backgroundColor:"#05386B", color:"gray"}}>React</button>
+                    </div>
+                    
+                </div>
+
+
             </div>
-        </div>
+        </Container>
     );
 };
 

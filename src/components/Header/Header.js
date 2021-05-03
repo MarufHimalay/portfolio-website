@@ -1,24 +1,25 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import myPic from '../../images/my-pic.png'
 const Header = () => {
     return (
         <Container>
-        <div className="row align-items-center vh-100 ">
-            <div className="col-md-6 d-flex justify-content-center">
-                <div>
-                <h4 style={{color:"#C5C6C7"}}>Welcome to my website</h4>
-                <h1 style={{color:"#66FCF1"}} className="title">Hi There!</h1>
-                <h1 style={{fontSize:"45px",color:"#66FCF1", fontWeight:"700"}}>I'M MOIN UDDIN MARUF</h1>
-                <h2 style={{color:"#FC4445", fontWeight:"700"}}>JavaScript Developer</h2>
-                <br/>
-                <button style={{backgroundColor:"#FC4445"}} className="btn"><span style={{color:"white"}}>About Me</span></button> <button className="btn btn-outline-light"><span >Get In Touch</span> </button> 
+            <div className="row align-items-center">
+                <div className="col-md-6 d-flex justify-content-center">
+                    <div>
+                        <p style={{ color: "#64FFDA" }} className="title">HI THERE!</p>
+                        <h3 style={{ color: "#E6F1FF", fontWeight: "700" }}>I'M MOIN UDDIN MARUF</h3>
+                        <p style={{ color: "#64FFDA" }}>JavaScript Developer</p>
+                        <br />
+                        <p style={{ color: "#E6F1FF" }}>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                        <button className="btn btn-success mx-2"><span style={{ color: "white" }}>Resume</span></button>
+                        <Button variant="outline-success">My Projects</Button>{' '}
+                    </div>
+                </div>
+                <div className="col-md-6 d-flex justify-content-center">
+                    <img style={{ width: "100%" }} src={myPic} alt="" srcset="" />
                 </div>
             </div>
-            <div className="col-md-6 d-flex justify-content-center">
-                <img style={{width:"100%"}} src={myPic} alt="" srcset=""/>
-            </div>
-        </div>
         </Container>
     );
 };

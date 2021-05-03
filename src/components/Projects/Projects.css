@@ -1,7 +1,7 @@
 #works:after{
     display: inline-block;
     content: "";
-    border-top: .2rem solid black;
+    border-top: .1rem solid lightgray;
     width: 200px;
     margin: 0 0 0 2rem;
     transform: translateY(-.5rem);
@@ -14,7 +14,7 @@
    
     
   }
-  #project-description:hover{
+  /* #project-description:hover{
     transform: rotate(5deg);
     transition: transform .5s ease;
-  }
+  } */

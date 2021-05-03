@@ -13,7 +13,7 @@ function App() {
     <div>
       <NavBar></NavBar>
       <Header></Header>
-      <About />
+      {/* <About /> */}
       <Projects></Projects>
       <Blogs></Blogs>
       <Contact />
