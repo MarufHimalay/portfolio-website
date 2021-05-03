@@ -9,11 +9,12 @@ import { faShareSquare } from '@fortawesome/free-regular-svg-icons';
 const Project = ({project}) => {
     const technology = project.technology;
     return (
-        <div   className="row my-3">
+        <div className="row my-3 p-2">
             <div  className="col-md-6">
                 <img style={{width: '100%'}} src={project.image} alt="" srcset=""/>
             </div>
-            <div id="project-description" style={{borderRadius: '5px', backgroundColor:"#172A45"}} className="col-md-6 my-2">
+            <div  id="project-description" style={{borderRadius: '5px', backgroundColor:"#172A45"}} className="my-2 col-md-6">
+                <div className=" my-2">
                 <p style={{color:"cyan"}}>0{project.id}</p>
                 <h3 style={{color:"#E6F1FF"}}>{project.title}</h3>
                 <p style={{color:"#E6F1FF"}}>{project.description}</p>
@@ -23,7 +24,8 @@ const Project = ({project}) => {
                 <br/>
                 <br/>
                 <a href={project.link} target="_blank"><FontAwesomeIcon className="mx-2" style={{color:"white", fontSize:"30px"}} icon={faGithub} /></a>
-                <FontAwesomeIcon className="mx-2" style={{color:"white", fontSize:"30px"}}  icon={faShareSquare} />
+                <a href={project.live} target="_blank"><FontAwesomeIcon className="mx-2" style={{color:"white", fontSize:"30px"}}  icon={faShareSquare} /></a>
+                </div>
 
             </div>
         </div>

@@ -6,35 +6,46 @@ import user from '../../images/icons/user.png'
 import briefing from '../../images/icons/briefing.png'
 import blog from '../../images/icons/blogging.png'
 import contact from '../../images/icons/contact.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
-    <nav className="container navbar navbar-expand-lg navbar-light">
-      <div className="container-fluid">
+    <nav  className="container sticky-top navbar navbar-expand-lg navbar-light">
+      <div style={{backgroundColor: "#0A192F"}} className="container-fluid ">
         <div>
-          <a className="navbar-brand text-white" href="#">Maruf</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <Link className="navbar-brand " to="/">
+            <h3 style={{color:"white", display:"inline"}}><span>{"<"}</span><span >Maruf</span>{">"}</h3>
+            </Link>
+          <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active  text-white" aria-current="page" href="#"> <img style={{width:"17px"}} src={house} alt="" srcset=""/> Home</a>
+          <li className="nav-item">
+            <a href="https://github.com/MarufHimalay" target="_blank"><FontAwesomeIcon className="m-2" style={{ color: "white", fontSize: "30px" }} icon={faGithub} /></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active  text-white" aria-current="page" href="#"><img style={{width:"17px"}} src={user} alt="" srcset=""/> About</a>
+            <a href="https://www.linkedin.com/in/moinuddinmaruf/" target="_blank"><FontAwesomeIcon className="m-2" style={{ color: "white", fontSize: "30px" }} icon={faLinkedin} /></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active  text-white" href="#"><img style={{width:"17px"}} src={briefing} alt="" srcset=""/>Projects</a>
+              <Link className="nav-link active text-white" aria-current="page" to="/">  Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active  text-white" href="#"><img style={{width:"17px"}} src={blog} alt="" srcset=""/>Blogs</a>
+              <Link className="nav-link active text-white" aria-current="page" to="/about"> About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active  text-white" href="#"><img style={{width:"17px"}} src={contact} alt="" srcset=""/>Contact</a>
+              <Link className="nav-link active text-white" to="/projects">Projects</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active  text-white" href="#"><img style={{width:"17px"}} src={contact} alt="" srcset=""/><Button variant="outline-success"> Resume</Button></a>
+              <Link className="nav-link active text-white" to="/blogs">Blogs</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active text-white" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <a  href="https://docs.google.com/document/d/1y31F5Lovs5gStzoOc6d8H6baNsG8uU-uDG0hfvjUFV4/edit?usp=sharing" className="nav-link active  text-white" target="_blank"><Button style={{border:"1px solid cyan", color:"white"}} variant="outline-success"> Resume</Button></a>
             </li>
           </ul>
         </div>

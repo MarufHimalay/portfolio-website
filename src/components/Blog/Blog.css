@@ -1,0 +1,11 @@
+/* [1] The container */
+  
+  /* [2] Transition property for smooth transformation of images */
+  #blog{
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  #blog:hover{
+    transform: scale(1.1);
+  }
