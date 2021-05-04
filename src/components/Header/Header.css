@@ -1,0 +1,14 @@
+#button-hover:hover{
+    background-color:#F37B62
+}
+#button-hover{
+    background-color: #f05734;
+    border: none;
+}
+#button-outline{
+    background-color:#222222;
+    border-color: #F37B62;
+}
+#button-outline:hover{
+    background-color:#f05734
+}

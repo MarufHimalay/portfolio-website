@@ -37,15 +37,17 @@ const Projects = () => {
         }
     ]
     return (
-        <div className="container mt-5 mb-5">
+        <div style={{backgroundColor:"#1F1F1F"}}>
+        <div className="container pt-5 mb-5">
             <div className="d-flex">
                 <h3 className="text-white" id="works" ><span>{"<"}Projects</span>{">"}</h3>
-                <Button as={Link} to="/projects" variant="outline-success">All projects</Button>
+                <Button id="button-outline" as={Link} to="/projects">All projects</Button>
             </div>
             {
                 projectData.map(pd => <Project project={pd}></Project>)
             }
                             <h3 className="text-white" ><span>{"<"}Projects</span>{"/>"}</h3>
+        </div>
         </div>
     );
 };

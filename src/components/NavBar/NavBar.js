@@ -11,8 +11,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
+    <div style={{backgroundColor:"#222222"}}>
     <nav  className="container sticky-top navbar navbar-expand-lg navbar-light">
-      <div style={{backgroundColor: "#0A192F"}} className="container-fluid ">
+      <div  className="container-fluid ">
         <div>
           <Link className="navbar-brand " to="/">
             <h3 style={{color:"white", display:"inline"}}><span>{"<"}</span><span >Maruf</span>{">"}</h3>
@@ -45,12 +46,13 @@ const NavBar = () => {
               <Link className="nav-link active text-white" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <a  href="https://docs.google.com/document/d/1y31F5Lovs5gStzoOc6d8H6baNsG8uU-uDG0hfvjUFV4/edit?usp=sharing" className="nav-link active  text-white" target="_blank"><Button style={{border:"1px solid cyan", color:"white"}} variant="outline-success"> Resume</Button></a>
+              <a  href="https://docs.google.com/document/d/1y31F5Lovs5gStzoOc6d8H6baNsG8uU-uDG0hfvjUFV4/edit?usp=sharing" className="nav-link active  text-white" target="_blank"><Button id="button-outline"> Resume</Button></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 

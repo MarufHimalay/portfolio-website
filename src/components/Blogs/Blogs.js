@@ -36,10 +36,11 @@ const Blogs = () => {
         }
     ]
     return (
-        <Container className="mb-5">
-            <div className="d-flex mt-5 mb-5">
-                <h3 id="works" ><span style={{color: "white"}}>{"<"}Articles{">"}</span></h3>
-                <Button as={Link} to="/blogs" variant="outline-success">All articles</Button>
+        <div style={{backgroundColor:"#EE6B4D"}}>
+        <Container className="pb-5">
+            <div className="d-flex pt-5 mb-5">
+                <h2 id="works" ><span style={{color: "white"}}>{"<"}Articles{">"}</span></h2>
+                <Button id="button-outline" as={Link} to="/blogs">All articles</Button>
             </div>
         <div className="row">
             {
@@ -49,6 +50,7 @@ const Blogs = () => {
         <h3 ><span style={{color: "white"}}>{"<"}Articles{"/>"}</span></h3>
 
         </Container>
+        </div>
     );
 };
 

@@ -5,7 +5,7 @@ import './Blog.css'
 const Blog = ({ blog }) => {
     return (
             <div  className="col-md-4">
-                <div id="blog" className="m-2" style={{ backgroundColor: '#172A45' }} >
+                <div id="blog" className="m-2" style={{ backgroundColor: '#1F1F1F' }} >
                     <a style={{textDecoration:"none"}} target="_blank" href={blog.link} rel="noreferrer">
                     <div>
                         <img style={{ width: "100%" }} src={blog.banner} alt="" srcset="" />

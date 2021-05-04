@@ -6,12 +6,15 @@ import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Slider from '../Carousel/Slider';
+
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Projects></Projects>
+            <Slider />
             <Blogs></Blogs>
+            
             <Contact />
             
         </div>

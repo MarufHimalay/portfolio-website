@@ -14,23 +14,25 @@ const Contact = () => {
             });
     }
     return (
-        <div className="container text-center mb-5">
-            <p style={{ color: "#61F9D5" }}>what's Next?</p>
+        <div style={{backgroundColor:"#1F1F1F"}} className=" pb-5">
+            <div className="text-center pt-3">
+            <h5 style={{ color: "#F37B62" }}>what's Next?</h5>
             <h2 style={{ color: "white" }}>Get In Touch</h2>
             <p style={{ color: "white" }}>I'd Love to hear from you . Whether you have a question or just want to say hi, fell free to drop a message. <br /> I'll try my best to get back to you!</p>
+            </div>
             <div className="d-flex justify-content-center">
-                <div id="form" style={{backgroundColor:"#172A45", borderRadius:"10px"}} className="p-4">
+                <div id="form" style={{backgroundColor:"#2F2F2F", borderRadius:"10px"}} className="p-4">
                     <form onSubmit={sendEmail}>
-                        <label>Name</label>
+                        <label style={{ color: "white", paddingTop:"10px" }}>Name</label>
                         <input className="form-control" name="name" placeholder="name" />
-                        <label>Email</label>
+                        <label style={{ color: "white", paddingTop:"10px" }}>Email</label>
                         <input className="form-control" type="email" name="email" placeholder="email" />
-                        <label>Message</label>
+                        <label style={{ color: "white", paddingTop:"10px" }}>Message</label>
                         <textarea className="form-control" name="message" placeholder="message" />
                         <br />
-                        <input className="btn btn-success w-100 " type="submit" value="Send" />
+                        <input id="button-hover" className="btn text-white w-100 " type="submit" value="Send" />
                     </form>
-                    <p className="text-white mt-2">Sending to <a style={{color:"cyan"}} href="mailto:m.u.maruf1999@gmail.com">m.u.maruf1999@gmail.com</a></p>
+                    <p className="text-white mt-2">Sending to <a style={{color:"#F37B62"}} href="mailto:m.u.maruf1999@gmail.com">m.u.maruf1999@gmail.com</a></p>
                 </div>
             </div>
         </div>

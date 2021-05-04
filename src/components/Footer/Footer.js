@@ -5,7 +5,7 @@ import { faFacebookF, faGithub, faLinkedin, faLinkedinIn, faMediumM } from '@for
 init("user_MU9AWoBbDuXGEuBq3jJEA");
 const Footer = () => {
     return (
-        <>
+        <div style={{backgroundColor:"#1F1F1F"}}>
             <div className="container text-center">
                 <p className="text-white">Designed & Built by <a href="https://github.com/MarufHimalay">Moin Uddin Maruf</a></p>
             </div>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/maruf.moeen/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="m-2" style={{ color: "white", fontSize: "30px" }} icon={faFacebookF} /></a>
                 <a href="https://m-u-maruf1999.medium.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="m-2" style={{ color: "white", fontSize: "30px" }} icon={faMediumM} /></a>
             </div>
-        </>
+        </div>
     );
 };
 

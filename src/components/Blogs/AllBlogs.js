@@ -55,12 +55,13 @@ const AllBlogs = () => {
         }
     ]
     return (
-        <Container className=" mb-5">
-            <div className="d-flex mt-5">
+        <div style={{backgroundColor:"#222222"}}>
+        <Container className=" pb-5">
+            <div className="d-flex pt-5">
                 <h3 id="works" ><span style={{color: "white"}}>{"<"}Articles{">"}</span></h3>
-                <Button variant="outline-success">All articles</Button>
+                <Button id="button-outline">All articles</Button>
             </div>
-        <div className="row    mt-5">
+        <div className="row mt-5">
             {
                 blogsData.map(bd => <Blog blog={bd}></Blog>)
             }
@@ -68,6 +69,7 @@ const AllBlogs = () => {
         <h3 ><span style={{color: "white"}}>{"<"}Articles{"/>"}</span></h3>
 
         </Container>
+        </div>
     );
 };
 
