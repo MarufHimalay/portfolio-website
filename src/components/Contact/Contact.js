@@ -20,14 +20,14 @@ const Contact = () => {
             <h2 style={{ color: "white" }}>Get In Touch</h2>
             <p style={{ color: "white" }}>I'd Love to hear from you . Whether you have a question or just want to say hi, fell free to drop a message. <br /> I'll try my best to get back to you!</p>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex  justify-content-center">
                 <div id="form" style={{backgroundColor:"#2F2F2F", borderRadius:"10px"}} className="p-4">
                     <form onSubmit={sendEmail}>
                         <label style={{ color: "white", paddingTop:"10px" }}>Name</label>
                         <input className="form-control" name="name" placeholder="name" />
-                        <label style={{ color: "white", paddingTop:"10px" }}>Email</label>
+                        <label style={{ color: "white", paddingTop:"20px" }}>Email</label>
                         <input className="form-control" type="email" name="email" placeholder="email" />
-                        <label style={{ color: "white", paddingTop:"10px" }}>Message</label>
+                        <label style={{ color: "white", paddingTop:"20px" }}>Message</label>
                         <textarea className="form-control" name="message" placeholder="message" />
                         <br />
                         <input id="button-hover" className="btn text-white w-100 " type="submit" value="Send" />

@@ -60,7 +60,7 @@ export default function Slider() {
     ]
 
     return (
-        <div style={{ backgroundColor: "#EE6B4D" }}>
+        <div style={{ backgroundColor: "#2F2F2F" }}>
             <div className="container pt-5 d-flex">
                 <h3 className="text-white" id="works" ><span>{"<"}Projects</span>{">"}</h3>
                 <Button id="button-outline" as={Link} to="/projects">All projects</Button>

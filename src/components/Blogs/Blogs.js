@@ -36,7 +36,7 @@ const Blogs = () => {
         }
     ]
     return (
-        <div style={{backgroundColor:"#EE6B4D"}}>
+        <div style={{backgroundColor:"#2F2F2F"}}>
         <Container className="pb-5">
             <div className="d-flex pt-5 mb-5">
                 <h2 id="works" ><span style={{color: "white"}}>{"<"}Articles{">"}</span></h2>

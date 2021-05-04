@@ -9,6 +9,7 @@ import contact from '../../images/icons/contact.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 const NavBar = () => {
   return (
     <div style={{backgroundColor:"#222222"}}>
@@ -18,8 +19,8 @@ const NavBar = () => {
           <Link className="navbar-brand " to="/">
             <h3 style={{color:"white", display:"inline"}}><span>{"<"}</span><span >Maruf</span>{">"}</h3>
             </Link>
-          <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button className="navbar-toggler collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"><FontAwesomeIcon className="mx-2" style={{ fontSize: "30px" }} icon={faBars} /></span>
           </button>
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
