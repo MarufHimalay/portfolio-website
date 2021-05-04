@@ -14,7 +14,7 @@ const Header = () => {
                         <h3 style={{ color: "#E6F1FF", fontWeight: "700" }}>I'M MOIN UDDIN MARUF</h3>
                         <p style={{ color: "#64FFDA" }}>JavaScript Developer</p>
                         <br />
-                        <p style={{ color: "#E6F1FF" }}>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                        <p style={{ color: "#E6F1FF" }}>Very much passionate about implementing and launching new projects using various technology. Ability to translate business requirements into technical solutions. Looking for an entry-level position as a software engineer in a reputed firm.</p>
                         <Button className="btn btn-success mx-2"><span style={{ color: "white" }}> <a style={{textDecoration:"none", color:"white"}} href="https://docs.google.com/document/d/1y31F5Lovs5gStzoOc6d8H6baNsG8uU-uDG0hfvjUFV4/edit">Resume</a> </span></Button>
                         <Button as={Link} to="/projects" variant="outline-success">My Projects</Button>{' '}
                         <div className="mt-4 d-flex justify-content-center">
