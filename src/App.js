@@ -15,6 +15,7 @@ import {
   Link
 } from "react-router-dom";
 import AllBlogs from './components/Blogs/AllBlogs';
+import AllProjects from './components/Projects/AllProjects';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
             <About />
           </Route>
           <Route path="/projects">
-            <Projects></Projects>
+            <AllProjects />
           </Route>
           <Route path="/blogs">
             <AllBlogs />

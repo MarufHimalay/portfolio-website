@@ -1,12 +1,15 @@
 import React from 'react';
-import './Projects.css'
+import '../Projects/Projects.css'
 import memento from '../../images/memento.jpg'
-import earlyRider from '../../images/earlyRider.jpg'
 import puppyShot from '../../images/puppyShot.jpg'
+import earlyRider from '../../images/earlyRider.jpg'
+import footballTracker from '../../images/footballTracker.jpg'
+import fancySlider from '../../images/fancySlider.jpg'
+import Hungry from '../../images/hungryMonster.jpg'
 import Project from '../Project/Project';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-const Projects = () => {
+const AllProjects = () => {
     const projectData = [
         {
             id:1,
@@ -34,6 +37,34 @@ const Projects = () => {
             technology:["ReactJS", "Firebase", "Bootstrap5", "Google Map"],
             link:"https://github.com/MarufHimalay/early-riders",
             live: "https://early-rider.web.app/"
+        },
+        
+        {
+            id:4,
+            title:"Football Tracker",
+            image:footballTracker,
+            description: "This is a single page web app to show football team. You can see detail info of the teams by clicking on any particular team. I used thesportsdb api to load and search team info.",
+            technology:["ReactJS", "Bootstrap5", "CSS3", "HTML"],
+            link:"https://github.com/MarufHimalay/football-tracker",
+            live: "https://team-tracker-react.netlify.app/"
+        },
+        {
+            id:5,
+            title:"Fancy Slider",
+            image:fancySlider,
+            description: "You can select images for making a slider. You can deselect a image by clicking again. Slider duration can be changed also. ",
+            technology:["JavaScript", "HTML5", "CSS3"],
+            link:"https://github.com/MarufHimalay/slider",
+            live: "https://marufhimalay.github.io/slider/index.html"
+        },
+        {
+            id:5,
+            title:"Hungry Monster",
+            image:Hungry,
+            description: "This website is for a restaurant for showing their menus to customers. Customers can search menus by ingredients, names etc. After clicking on a particular food item, detail info of that item will be shown on the top. ",
+            technology:["JavaScript", "HTML5", "CSS3"],
+            link:"https://github.com/MarufHimalay/hungry-monster",
+            live: "https://marufhimalay.github.io/hungry-monster/"
         }
     ]
     return (
@@ -50,4 +81,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default AllProjects;
