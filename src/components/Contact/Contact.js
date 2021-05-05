@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="text-center pt-3">
             <h5 style={{ color: "#F37B62" }}>what's Next?</h5>
             <h2 style={{ color: "white" }}>Get In Touch</h2>
-            <p style={{ color: "white" }}>I'd Love to hear from you . Whether you have a question or just want to say hi, fell free to drop a message. <br /> I'll try my best to get back to you!</p>
+            <p style={{ color: "white" }}>I'm always here to learn from you. Whether you have a question or just want to say hi, fell free to drop a message. <br /> I'll try my best to get back to you!</p>
             </div>
             <div className="d-flex  justify-content-center">
                 <div id="form" style={{backgroundColor:"#2F2F2F", borderRadius:"10px"}} className="p-4">
