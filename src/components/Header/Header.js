@@ -14,7 +14,7 @@ const Header = () => {
                     <div>
                         <p style={{ color: "#EE6B4D", fontWeight:"700" }} className="title">HI THERE!</p>
                         <h3 style={{ color: "#E6F1FF", fontWeight: "700" }}><span style={{ color: "#EE6B4D" }}>I'm</span> MOIN UDDIN MARUF</h3>
-                        <h4 style={{ color: "#EE6B4D" }}>JavaScript Developer</h4>
+                        <h4 style={{ color: "#EE6B4D" }}>Frontend Developer</h4>
                         <br />
                         <p style={{ color: "#E6F1FF", backgroundColor:"#2F2F2F", padding:"10px", borderRadius:"10px" }}>Very much passionate about implementing and launching new projects using various technology. Ability to translate business requirements into technical solutions. Looking for an entry-level position as a software engineer in a reputed firm.</p>
                         <Button id="button-hover"  className="btn mx-2"><span style={{ color: "white" }}> <a style={{textDecoration:"none", color:"white"}} href="https://docs.google.com/document/d/1y31F5Lovs5gStzoOc6d8H6baNsG8uU-uDG0hfvjUFV4/edit">Resume</a> </span></Button>
