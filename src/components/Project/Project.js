@@ -13,7 +13,7 @@ const Project = ({project}) => {
             <div  className="col-md-6">
                 <img style={{width: '100%'}} src={project.image} alt="" srcset=""/>
             </div>
-            <div   style={{borderRadius: '5px', backgroundColor:"#2F2F2F"}} className="col-md-6">
+            <div   style={{borderRadius: '5px'}} className="col-md-6">
                 <div className=" my-2">
                 <p >0{project.id}</p>
                 <h3 style={{color:"#EE6B4D"}}>{project.title}</h3>

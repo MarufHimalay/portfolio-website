@@ -37,7 +37,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div style={{backgroundColor:"#1F1F1F"}}>
+        <div>
         <div className="container pt-5 mb-5">
             <div className="d-flex">
                 <h3 className="text-white" id="works" ><span>{"<"}Projects</span>{">"}</h3>

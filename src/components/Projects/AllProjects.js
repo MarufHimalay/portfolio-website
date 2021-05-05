@@ -68,7 +68,7 @@ const AllProjects = () => {
         }
     ]
     return (
-        <div style={{backgroundColor:"#222222"}}>
+        <div style={{ backgroundColor: "#222222" }} >
         <div className="container pt-5 pb-5">
             <div className="d-flex">
                 <h3 className="text-white" id="works" ><span>{"<"}Projects</span>{">"}</h3>
