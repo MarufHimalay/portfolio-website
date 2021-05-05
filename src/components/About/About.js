@@ -3,8 +3,8 @@ import { Badge, Container } from 'react-bootstrap';
 import myPic from '../../images/my-pic.png'
 const About = () => {
     return (
-        <div style={{backgroundColor:"#222222"}}>
-            <div  className="container pt-3">
+        <div cl style={{backgroundColor:"#222222"}}>
+            <div  className="container pt-3 pb-3">
                 <h3 ><span style={{ color: "white" }}>{"<"}About{">"}</span></h3>
                 <div className="row mt-5">
                     <div className=" col-md-6">

@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="col-md-6 d-flex justify-content-center">
                     <div>
                         <p style={{ color: "#EE6B4D", fontWeight:"700" }} className="title">HI THERE!</p>
-                        <h3 style={{ color: "#E6F1FF", fontWeight: "700" }}>I'M MOIN UDDIN MARUF</h3>
+                        <h3 style={{ color: "#E6F1FF", fontWeight: "700" }}><span style={{ color: "#EE6B4D" }}>I'm</span> MOIN UDDIN MARUF</h3>
                         <h4 style={{ color: "#EE6B4D" }}>JavaScript Developer</h4>
                         <br />
                         <p style={{ color: "#E6F1FF", backgroundColor:"#2F2F2F", padding:"10px", borderRadius:"10px" }}>Very much passionate about implementing and launching new projects using various technology. Ability to translate business requirements into technical solutions. Looking for an entry-level position as a software engineer in a reputed firm.</p>
