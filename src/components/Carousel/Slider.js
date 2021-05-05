@@ -75,16 +75,16 @@ export default function Slider() {
             }} pagination={true} className="mySwiper">
                 {
                     pdData.map(pd => <SwiperSlide>
-                        <div className="">
+                        <div  style={{backgroundColor:"#222222"}} className="">
 
                             <div className="">
                                 <img style={{ width: '100%' }} src={pd.image} alt="" srcset="" />
                             </div>
                             <div id="pd-description" className="">
-                                <div className="p-2 mb-3">
-                                    <p style={{ color: "#D0CCA" }}>0{pd.id}</p>
+                                <div className="p-1 mb-2">
+                                    <p className="text-white">0{pd.id}</p>
                                     <h3 style={{ color: "#EE6B4D" }}>{pd.title}</h3>
-                                    <small className="p-2" >{pd.description}</small>
+                                    <small className="text-white p-2" >{pd.description}</small>
                                     <br />
                                     <br />
                                     {

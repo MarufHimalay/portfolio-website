@@ -15,7 +15,7 @@ const Project = ({project}) => {
             </div>
             <div   style={{borderRadius: '5px'}} className="col-md-6">
                 <div className=" my-2">
-                <p >0{project.id}</p>
+                <p className="text-white" >0{project.id}</p>
                 <h3 style={{color:"#EE6B4D"}}>{project.title}</h3>
                 <p style={{color:"#E6F1FF"}}>{project.description}</p>
                 {

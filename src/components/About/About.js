@@ -3,10 +3,10 @@ import { Badge, Container } from 'react-bootstrap';
 import myPic from '../../images/my-pic.png'
 const About = () => {
     return (
-        <div style={{ backgroundColor: "#222222" }}>
-            <div className="container vh-100 pt-3">
+        <div style={{backgroundColor:"#222222"}}>
+            <div  className="container pt-3">
                 <h3 ><span style={{ color: "white" }}>{"<"}About{">"}</span></h3>
-                <div className="row container mt-5">
+                <div className="row mt-5">
                     <div className=" col-md-6">
                         <div className="">
                             <img style={{ width: "300px" }} src={myPic} alt="" srcset="" />
@@ -15,7 +15,7 @@ const About = () => {
                             <br />
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center">
+                    <div  className="col-md-6 d-flex justify-content-center">
                         <div className="w-75">
                             <div className="mt-5 mb-5">
                                 <h3 className="text-white">My skills</h3>
@@ -46,12 +46,10 @@ const About = () => {
                         </div>
 
                     </div>
-
-
                 </div>
                 <h3 className="mb-0" ><span style={{ color: "white" }}>{"<"}About{"/>"}</span></h3>
             </div>
-        </div>
+            </div>
     );
 };
 
