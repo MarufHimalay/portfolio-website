@@ -1,6 +1,6 @@
 import React from 'react';
 import { Badge, Container } from 'react-bootstrap';
-import myPic from '../../images/my-pic.png'
+import myPic from '../../images/my-pic-about.png'
 const About = () => {
     return (
         <div cl style={{backgroundColor:"#222222"}}>
