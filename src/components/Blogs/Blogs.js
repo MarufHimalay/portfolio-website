@@ -20,7 +20,7 @@ const Blogs = () => {
             banner: javascript,
             title: "10 JavaScript Interview Questions",
             description: "JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity...",
-            technology: ["JavaScript, ES6"],
+            technology: ["JavaScript"," ES6"],
             date: "May 5 2021",
             link:"https://m-u-maruf1999.medium.com/10-javascript-interview-questions-df810841ed23"
 
@@ -29,7 +29,7 @@ const Blogs = () => {
             banner: machineLearning,
             title: "5 Easy Steps to Learn Machine Learning",
             description: "React is a library that used to create awesome user interface … hence it is a library it need some other tools to make..",
-            technology: ["Machine Learning, Artificial Intelligence"],
+            technology: ["Machine Learning","Artificial Intelligence"],
             date: "May 5 2021",
             link:"https://m-u-maruf1999.medium.com/5-easy-steps-to-learn-machine-learning-118f4cea81d1"
 

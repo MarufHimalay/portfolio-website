@@ -9,7 +9,7 @@ const About = () => {
                 <div className="row mt-5">
                     <div className=" col-md-6">
                         <div className="">
-                            <img style={{ width: "300px" }} src={myPic} alt="" srcset="" />
+                            <img style={{ width: "90%" }} src={myPic} alt="" srcset="" />
                             <h3 className="text-white"><span style={{ color: "#EE6B4D" }}>I'm</span> Moin Uddin Maruf</h3>
                             <p className="text-white">Very much passionate about implementing and launching new projects using various technology. <br /> Ability to translate business requirements into technical solutions. <br /> Looking for an entry-level position as a software engineer in a reputed firm.</p>
                             <br />
