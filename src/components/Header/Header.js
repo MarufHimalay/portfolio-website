@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div style={{backgroundColor:"#222222"}}>
         <Container >
-            <div className="row pb-5 pt-3 align-items-center">
+            <div className="row pb-5 pt-5 align-items-center">
                 <div className="col-md-6 d-flex justify-content-center">
                     <div>
                         <p style={{ color: "#EE6B4D", fontWeight:"700" }} className="title">HI THERE!</p>
