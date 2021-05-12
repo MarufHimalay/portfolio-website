@@ -9,10 +9,9 @@ const About = () => {
                 <div className="row mt-5">
                     <div className=" col-md-6">
                         <div className="">
-                            <img style={{ width: "90%" }} src={myPic} alt="" srcset="" />
+                            <img style={{ width: "40%" }} src={myPic} alt="" srcset="" />
                             <h3 className="text-white"><span style={{ color: "#EE6B4D" }}>I'm</span> Moin Uddin Maruf</h3>
-                            <p className="text-white">Very much passionate about implementing and launching new projects using various technology. <br /> Ability to translate business requirements into technical solutions. <br /> Looking for an entry-level position as a software engineer in a reputed firm.</p>
-                            <br />
+                            <p style={{ color: "#E6F1FF", backgroundColor:"#2F2F2F", padding:"10px", borderRadius:"10px" }}>Very much passionate about implementing and launching new projects using various technology. Ability to translate business requirements into technical solutions. Looking for an entry-level position as a software engineer in a reputed firm.</p>                            <br />
                         </div>
                     </div>
                     <div  className="col-md-6 d-flex justify-content-center">
